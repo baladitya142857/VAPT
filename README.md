@@ -1,4 +1,4 @@
-# ⚔ VAPT Pro — Vulnerability Assessment & Penetration Testing Platform
+#  VAPT Pro — Vulnerability Assessment & Penetration Testing Platform
 
 > **For educational and authorised use only.**
 > Always obtain explicit written permission before testing any system you do not own.
@@ -28,7 +28,7 @@ VAPT Pro is a comprehensive, dark-themed Python GUI application for security pro
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -49,9 +49,9 @@ No external packages required — pure Python stdlib + Tkinter.
 
 ---
 
-## 📦 Modules
+##  Modules
 
-### 1. 🔍 Reconnaissance
+### 1.  Reconnaissance
 Passive and active information gathering:
 - **WHOIS Lookup** — registrar, creation/expiry dates, name servers
 - **DNS Enumeration** — A, AAAA, MX, NS, TXT, CNAME, SOA, PTR
@@ -62,7 +62,7 @@ Passive and active information gathering:
 - **Google Dork Generator** — 14 ready-to-use dork queries
 - **Email Harvesting** — OSINT source links (Hunter.io, Phonebook.cz, etc.)
 
-### 2. 📡 Scanning
+### 2.  Scanning
 Network and service discovery:
 - **TCP Port Scanner** — Top-100, Full 1–1024, 1–10000, Custom range, Web-only
 - **Banner / Service Grabbing** — FTP, SSH, HTTP, and more
@@ -71,7 +71,7 @@ Network and service discovery:
 - **Web Directory Brute-Force** — common paths including `.git`, `.env`, `backup`
 - **Concurrent scanning** — configurable thread count (10–500)
 
-### 3. ⚠️ Vulnerability Assessment
+### 3.  Vulnerability Assessment
 Automated vulnerability checks:
 - **CVE Matching** — banner version → CVE database lookup
 - **SQL Injection** — GET param testing with error pattern detection
@@ -84,7 +84,7 @@ Automated vulnerability checks:
 - **Default Credentials** — HTTP Basic Auth brute-force
 - **Open Redirect** — 6 common parameter names
 
-### 4. 💥 Exploitation
+### 4.  Exploitation
 Controlled PoC testing with **remediation guidance** for every exploit:
 | Exploit | Severity |
 |---------|----------|
@@ -102,7 +102,7 @@ Controlled PoC testing with **remediation guidance** for every exploit:
 
 > ⚠ Requires ticking the "I confirm I have authorisation" checkbox.
 
-### 5. 🕵️ Post-Exploitation
+### 5.  Post-Exploitation
 Attacker simulation + defender playbooks:
 - **Privilege Escalation** — Linux & Windows checklists (commands + remediations)
 - **Lateral Movement** — 10 vector descriptions + detection guidance
@@ -112,7 +112,7 @@ Attacker simulation + defender playbooks:
 - **Defender Playbook** — 10-point hardening checklist + IR phases
 - **Reverse Shell Generator** — Bash, Python, PHP, Perl, Ruby, Netcat, PowerShell, msfvenom
 
-### 6. 📄 Reporting
+### 6.  Reporting
 Professional report generation:
 - **Findings Table** — sortable, filterable by severity, with detail pane
 - **Manual Findings** — add custom findings with full metadata
@@ -127,14 +127,14 @@ Professional report generation:
 
 ---
 
-## 💾 Session Management
+##  Session Management
 - **Save Session** — exports full session to JSON (target, findings, results, logs)
 - **Load Session** — restores a previous engagement
 - **New Session** — resets all data
 
 ---
 
-## ⚖️ Legal Notice
+##  Legal Notice
 
 This tool is intended for:
 - Security professionals conducting authorised penetration tests
@@ -146,7 +146,7 @@ The authors accept no liability for misuse.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 vapt_tool/
