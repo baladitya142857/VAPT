@@ -1,0 +1,10 @@
+# VAPT Pro – Requirements
+# All core functionality uses Python stdlib only.
+# Optional enhancements:
+# pip install requests  (better HTTP handling)
+# pip install python-nmap  (nmap integration)
+# tkinter is required (usually bundled with Python)
+# On Ubuntu/Debian: sudo apt install python3-tk
+# On Fedora/RHEL:   sudo dnf install python3-tkinter
+# On macOS:         brew install python-tk (or use official Python installer)
+# On Windows:       tkinter is included with the official Python installer
